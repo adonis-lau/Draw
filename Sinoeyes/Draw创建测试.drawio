@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T08:50:20.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TDVnLEKd0WpJrvfkN9OZ" version="23.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T02:20:41.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="LcVXvCYUeMyCmuhxsDOY" version="23.1.0" type="github">
   <diagram name="第 1 页" id="0MhE6gQrho80KI4QQGSw">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bBibFKB-1F4pUDVngObW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-19" target="bBibFKB-1F4pUDVngObW-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-19" value="汉得平台&lt;br&gt;DataX任务&lt;br&gt;现有1600个" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="524" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-32" target="bBibFKB-1F4pUDVngObW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-32" value="手动筛选有效任务" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-34" value="Python脚本&lt;br&gt;自动提取任务信息&lt;br&gt;生成配置文件&lt;br&gt;放在GitLab/ODS目录" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="390" y="524" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-36" target="bBibFKB-1F4pUDVngObW-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-36" value="汉得平台&lt;br&gt;SQL任务&lt;br&gt;现有2300个" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="634" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-37" target="bBibFKB-1F4pUDVngObW-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-37" value="手动筛选有效任务" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-41" value="涉及SQL逻辑调整&lt;br&gt;手动调整完成后&lt;br&gt;放在GitLab对应目录&lt;br&gt;DWD/DWS/DM/ADS" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="634" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-43" target="bBibFKB-1F4pUDVngObW-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-43" value="新任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="414" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-44" target="bBibFKB-1F4pUDVngObW-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-44" value="手动编写&lt;br&gt;DataX文件&lt;br&gt;SQL文件" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-47" value="放在GitLab对应目录" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="390" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-49" target="bBibFKB-1F4pUDVngObW-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-49" value="GitLab&lt;br&gt;UAT/PROD分支" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="524" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-47" target="bBibFKB-1F4pUDVngObW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-41" target="bBibFKB-1F4pUDVngObW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-34" target="bBibFKB-1F4pUDVngObW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-57" target="bBibFKB-1F4pUDVngObW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-57" value="开发人员及脚本生成的代码文件全部提交到UAT分支&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;只有GitLab管理员有权限Merge代码到PROD分支&lt;br&gt;调整代码中的PROD环境配置&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="320" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-60" target="bBibFKB-1F4pUDVngObW-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-60" value="CI/CD&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;根据分支提交状态&lt;br&gt;推送脚本内容到&lt;br&gt;UAT/PROD环境" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="780" y="524" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-71" value="海豚调度&lt;br&gt;每天轮询一次&lt;br&gt;通过排期调起任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.sequential_data;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="980" y="504" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-74" target="bBibFKB-1F4pUDVngObW-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-74" value="&lt;br&gt;项目调度排期" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="414" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-71" target="bBibFKB-1F4pUDVngObW-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-78" target="bBibFKB-1F4pUDVngObW-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-78" value="半自动化排期&lt;br&gt;因为涉及到“工作日”&lt;br&gt;每年的工作日只有在上一年年末才能确定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="414" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-80" value="管理员配置调度流程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="965" y="728" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bBibFKB-1F4pUDVngObW-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBibFKB-1F4pUDVngObW-80" target="bBibFKB-1F4pUDVngObW-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1029.5" y="774" as="sourcePoint" />
+            <mxPoint x="1030" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
