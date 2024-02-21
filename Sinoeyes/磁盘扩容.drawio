@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T06:05:58.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="c0KlRTNmUTn86RVI9Rv9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T06:09:24.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="P__uYqoSl_unoH9g8YKV" version="23.1.1" type="github">
   <diagram name="第 1 页" id="0sGM235ddp-wGYAWmlpz">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJOXiQJlcXDrgKuWrB-1" target="-zRJOXiQJlcXDrgKuWrB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-1" value="Windows-D盘" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-zRJOXiQJlcXDrgKuWrB-2" target="-zRJOXiQJlcXDrgKuWrB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-2" value="Windows-G盘" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJOXiQJlcXDrgKuWrB-3" target="-zRJOXiQJlcXDrgKuWrB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-3" value="Windows-E盘" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-4" value="22T&lt;br&gt;backup-D&lt;br&gt;backup-E&lt;br&gt;backup-G(软连接)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJOXiQJlcXDrgKuWrB-5" target="-zRJOXiQJlcXDrgKuWrB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-5" value="/home" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-zRJOXiQJlcXDrgKuWrB-10" target="-zRJOXiQJlcXDrgKuWrB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-zRJOXiQJlcXDrgKuWrB-10" value="6T&lt;br&gt;backup-G(软连接)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="745" y="430" width="110" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
